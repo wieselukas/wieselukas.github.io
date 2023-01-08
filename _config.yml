@@ -292,7 +292,10 @@ defaults:
       related: true
       
 collections:
-  portfolio:
+  electronics:
+    output: true
+    permalink: /:collection/:path/
+  tinkering:
     output: true
     permalink: /:collection/:path/
 
